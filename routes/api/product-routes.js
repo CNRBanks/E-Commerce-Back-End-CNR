@@ -12,11 +12,6 @@ router.get('/', (req, res) => {
   } catch (error) {
     res.status(400).json(error);
   }
-  // find all products
-  // be sure to include its associated Category and Tag data
-  // requires try, await findAll, catch
-  // include attribute - id, product name, price, and stock,
-  // needs category name and model tag, through - productTag, tag name
 });
 
 // get one product
@@ -30,11 +25,6 @@ router.get('/:id', (req, res) => {
   } catch (error) {
     res.status(400).json(error);
   }
-  // find a single product by its `id`
-  // be sure to include its associated Category and Tag data
-   // requires try, await findByPk, catch
-  // include attribute - id, product name, price, and stock,
-  // needs category name and model tag, through - productTag, tag name
 });
 
 // create new product
@@ -112,6 +102,14 @@ router.put('/:id', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
+  try {
+    const productDelete = await Product.destroy({
+      where: { id: req.params.id },
+    });
+    res.json(productDelete);
+  } catch (error) {
+    res.status(400).json(error);
+  }
   // delete one product by its `id` value
   // require, try, await destroy, if - return, catch
 });
