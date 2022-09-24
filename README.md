@@ -4,7 +4,7 @@ GitHub Repo - https://github.com/CNRBanks/E-Commerce-Back-End-CNR
 
 # Description
 
-Backend for an e-commerce site built with node.js, sequelize, express, and mysql2
+Backend for an e-commerce site built with Node.js, Sequelize, Express, and MySQL2
 
 # Table of Contents
 
@@ -14,10 +14,9 @@ Backend for an e-commerce site built with node.js, sequelize, express, and mysql
 - [License](#license)
 - [Contributing](#contributing)
 
-
 # Preview
 
-![App Preview](./src/Images/preview.png "App Preview")
+![Preview](./Images/preview.png "Preview")
 
 # Installation
 
@@ -25,7 +24,7 @@ Run npm install to install dotenv, sequelize, mysql2, and express
 
 # Usage
 
-Run node server.js, then npm run seed
+Run npm start
 
 # License
 
@@ -39,15 +38,13 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 </blockquote>
 </details>
 
 # Contributing
 
 - dotenv - https://www.npmjs.com/package/dotenv
-- Node MySQL 2 - https://www.npmjs.com/package/mysql2
+- MySQL 2 - https://www.npmjs.com/package/mysql2
 - Express - https://www.npmjs.com/package/express
 - Sequelize - https://www.npmjs.com/package/sequelize
-
-
-
